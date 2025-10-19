@@ -58,5 +58,7 @@
 ## Скриншоты
 
 СМС были переданы эмулятору через ADB.
+
 ![Image](https://github.com/kucingsayabesar/interceptor/blob/main/screenshots/1.png)
+
 ![Image](https://github.com/kucingsayabesar/interceptor/blob/main/screenshots/2.png)
