@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Interceptor BR</string>
+    <string name="save">Сохранить</string>
+    <string name="token_hint">Введите токен Telegram бота</string>
+    <string name="chatid_hint">Введите Chat ID</string>
+    <string name="Interceptor">Interceptor BR</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.InterceptorBR" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:colorBackground">#0B0014</item>
+        <item name="android:textColor">#D9B3FF</item>
+        <item name="colorPrimary">#6C00FF</item>
+        <item name="colorSecondary">#9D4EDD</item>
+        <item name="android:statusBarColor">#1A002B</item>
+        <item name="android:navigationBarColor">#1A002B</item>
+        <item name="android:windowAnimationStyle">@style/Window.Fade</item>
+    </style>
+
+    <style name="Window.Fade">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!-- Заглушка для старых ссылок -->
+    <style name="Window" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">#000000</item>
+    </style>
+</resources>
+

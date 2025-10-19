@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0B0014">
+
+    <EditText
+        android:id="@+id/tokenEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/token_hint"
+        android:textColorHint="#9D4EDD"
+        android:textColor="#D9B3FF"
+        android:backgroundTint="#6C00FF"/>
+
+    <EditText
+        android:id="@+id/chatIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/chatid_hint"
+        android:textColorHint="#9D4EDD"
+        android:textColor="#D9B3FF"
+        android:backgroundTint="#6C00FF"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#6C00FF"
+        android:text="@string/save"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/helpButton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="end"
+        android:adjustViewBounds="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:baselineAlignBottom="true"
+        android:contentDescription="Инструкция"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_help"
+        android:textAlignment="gravity"
+        android:tint="#00FFFF"
+		android:autoSizeTextType="uniform"
+		android:autoSizeMinTextSize="12sp"
+		android:autoSizeMaxTextSize="20sp" />
+</LinearLayout>

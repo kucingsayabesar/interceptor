@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Неоновая Blade Runner тема -->
+    <style name="Theme.BladeRunner" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Цвета неонового интерфейса -->
+        <item name="colorPrimary">#8000FF</item> <!-- фиолетовый -->
+        <item name="colorPrimaryDark">#4B0082</item> <!-- темно-фиолетовый -->
+        <item name="colorAccent">#D000FF</item> <!-- розово-фиолетовый -->
+        <item name="android:windowBackground">#0A0A0F</item>
+        <item name="android:textColor">#E0E0FF</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:statusBarColor">#100020</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationFade</item>
+    </style>
+
+    <!-- Анимация появления -->
+    <style name="WindowAnimationFade">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+	
+	<style name="NeonDialog" parent="Theme.AppCompat.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowAnimationStyle">@style/NeonDialogAnimation</item>
+</style>
+
+<style name="NeonDialogAnimation">
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+</style>
+</resources>
+
