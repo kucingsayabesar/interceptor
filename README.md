@@ -54,3 +54,9 @@
 - ✅ Никакие данные не покидают устройство, кроме целевого Telegram-бота
 - ✅ `android:allowBackup="false"` предотвращает утечку данных при резервном копировании
 - ✅ `SettingsActivity` не экспортируется наружу (`android:exported="false"`)
+
+## Скриншоты
+
+СМС были переданы эмулятору через ADB.
+![Image](https://github.com/kucingsayabesar/interceptor/blob/main/screenshots/1.png)
+![Image](https://github.com/kucingsayabesar/interceptor/blob/main/screenshots/2.png)
